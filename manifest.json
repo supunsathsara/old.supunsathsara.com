@@ -1,0 +1,27 @@
+{
+	"name": "Savindu Supun Sathsara",
+	"short_name": "Supun Sathsara",
+	"start_url": "./",
+	"background_color": "#323232",
+	"theme_color": "#323232",
+	"scope": "/",
+	"display": "standalone",
+	"icons": [
+		{
+		"src": "/assets/theme/images/logos/logo192.png",
+		"sizes": "192x192",
+		"type": "image/png"
+		},
+		{
+		"src": "/assets/theme/images/logos/logo512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+		},
+        {
+		"src": "/assets/theme/images/logos/sq_logo512.png",
+		"sizes": "512x512",
+		"type": "image/png"
+		}
+
+	]
+}
