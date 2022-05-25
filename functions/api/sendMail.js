@@ -185,6 +185,6 @@ async function handle(request) {
       return JSONResponse("Oops! Something went wrong.", 400);
     }
   } catch (err) {
-    return new Response("©supunsathsara.com");
+    return new Response("©supunsathsara.com ");
   }
 }
