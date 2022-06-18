@@ -104,6 +104,28 @@ h6 {
   letter-spacing: 1px;
 }
 
+@keyframes status_para {
+  0%   {font-size: 1.2em;}
+  100% {font-size: 1.6em;}
+}
+
+#uptimestatp{
+  font-size: 1.2em;
+  font-weight: bold;
+  
+}
+
+#uptimestatp:hover{
+  animation: status_para 1s;
+  font-size: 1.6em;
+}
+#uptimestatp a{
+  color: inherit;
+}
+
+#uptimestatp a:hover{
+  color: #000000;
+}
 /*============================
      03. HELPER
 ============================*/
