@@ -4,14 +4,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <meta
       name="description"
-      content="•Savindu Supun Sathsara | Certificate details"
+      content="•Savindu Supun Sathsara | Certificates List"
     />
     <!-- Google / Search Engine Tags -->
     <meta
       itemprop="name"
-      content="Certificate Details | savindu Supun Sathsara"
+      content="Certificates List | savindu Supun Sathsara"
     />
     <meta
       itemprop="description"
@@ -24,14 +25,14 @@
     <!-- Open graph and twitter meta tags -->
     <meta
       property="og:title"
-      content="Certificate Details | Savindu Supun Sathsara"
+      content="Certificates List | Savindu Supun Sathsara"
     />
     <link rel="canonical" href="https://supunsathsara.com" />
     <meta property="og:url" content="https://supunsathsara.com" />
     <meta property="og:type" content="profile" />
     <meta
       property="og:description"
-      content="Certificate Details | •Savindu Supun Sathsara •𝓒𝓗𝓤𝓣𝓣𝓔 •WebDev"
+      content="Certificates List | •Savindu Supun Sathsara •𝓒𝓗𝓤𝓣𝓣𝓔 •WebDev"
     />
     <meta
       property="og:image:secure_url"
@@ -46,7 +47,7 @@
     <meta name="twitter:site" content="@Ssupunsathsara" />
     <meta
       name="twitter:title"
-      content="Certificate Details | Savindu Supun Sathsara"
+      content="Certificates List | Savindu Supun Sathsara"
     />
     <meta
       name="twitter:image"
@@ -54,10 +55,11 @@
     />
     <meta name="twitter:url" content="https://supunsathsara.com" />
 
-    <title>Certificate details | Savindu Supun Sathsara</title>
+    <title>Certificates List | Savindu Supun Sathsara</title>
     <!--favicon-->
     <link rel="apple-touch-icon" href="assets\theme\images\favicon.png" />
     <link rel="icon" href="assets\theme\images\favicon.png" />
+
     <!--pace (page loader) style-->
     <link href="assets/plugins/pace/pace.css" rel="stylesheet" />
     <script src="assets/plugins/pace/pace.min.js"></script>
@@ -90,7 +92,7 @@
     <!-- black skin-->
     <link href="assets/theme/css/skin-black.css" rel="stylesheet" />
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".menu-area" data-offset="200">
     <!--wrapper page-->
     <div class="wrapper">
       <!-- Main Header -->
@@ -137,7 +139,7 @@
                 </div>
                 <div class="col-md-6">
                   <ul class="breadcrumb main-nav nav">
-                    <li class=""><a href="/#home">Home</a></li>
+                    <li class=""><a href="/">Home</a></li>
                     <li class=""><a href="/#about">About</a></li>
                     <li class="active"><a href="/#resume">Resume</a></li>
                     <li class=""><a href="/#contact">Contact</a></li>
@@ -196,133 +198,42 @@
       </header>
       <!-- End Main Header -->
 
-      <!-- CERT DETAILS-->
-      <section id="portfolio" class="block-section">
-        <!-- TITLE PAGE -->
+      <!-- CERTIFICATE LIST CONTENT-->
+      <section class="block-section">
+        <!-- TITLE PAGE-->
         <div class="shape-bottom">
           <div class="bg-secondary block-title">
             <div class="container">
-              <h2
-                id="title"
-                class="text-uppercase color-dark text-bold no-margin cert_title"
-              ></h2>
-              <p id="desc"></p>
-              <div class="title-icon"><i class="fa fa-inbox"></i></div>
+              <h2 class="text-uppercase color-dark text-bold no-margin">
+                My Certificates
+              </h2>
+              <div class="title-icon"><i class="fa fa-certificate"></i></div>
             </div>
           </div>
         </div>
-        <!-- END TITLE PAGE -->
+        <!--END  TITLE PAGE-->
 
         <div class="block-page">
           <div class="container-medium clearfix">
-            <!--Slider-->
-            <div
-              id="carousel-example-generic"
-              class="carousel slide flat-carousel"
-              data-ride="carousel"
-            >
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div
-                  class="item active"
-                  id="cert pic"
-                  style="display: flex; justify-content: center"
-                >
-                  <img
-                    id="cert pic"
-                    src=""
-                    alt=""
-                    style="width: 80%; height: 80%; align-items: center"
-                  />
-                </div>
-              </div>
-              <!-- Controls -->
-              <a
-                class="left carousel-control"
-                id="left carousel-control"
-                role="button"
-                data-slide="prev"
-                onclick="showcert()"
-              >
-                <span class="fa fa-angle-double-left ic-left"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="right carousel-control"
-                id="right carousel-control"
-                onclick="showcert()"
-                role="button"
-              >
-                <span class="fa fa-angle-double-right ic-right"></span>
-                <span class="sr-only">Next</span>
-              </a>
+            <div class="row list-work" id="cert-list">
+              <div class="col-md-4 col-sm-6"></div>
             </div>
-            <!--End Slider-->
+            <!--End List WOrk-->
 
-            <div class="white-space-30"></div>
-
-            <div class="row">
-              <div class="col-sm-6">
-                <h3 id="cert_title" class="text-uppercase color-dark text-bold">
-                  JavaScript Algorithms and Data Structures
-                </h3>
-                <h4 class="text-uppercase color-dark text-bold">Description</h4>
-                <div class="white-space-10"></div>
-                <p>
-                  <strong class="fix-width-100"
-                    ><i class="fa fa-calendar margin-right-5"></i>
-                    Provider</strong
-                  >
-                  : <span id="provider">Free Code Camp</span><br />
-                  <strong class="fix-width-100"
-                    ><i class="fa fa-calendar margin-right-5"></i> Issued
-                    Date</strong
-                  >
-                  : <span id="issued-date">2022/01/01</span><br />
-                </p>
-                <div class="white-space-20"></div>
-                <p>
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="noopener"
-                    id="verify-btn"
-                    class="btn btn-flat-solid primary-btn"
-                    >verify</a
-                  >
-                </p>
-                <div class="white-space-20"></div>
-              </div>
+            <!--Pagination-->
+            <div class="text-center">
+              <ul class="pagination flat-pagination">
+                <!-- <li><a role="link" aria-disabled="true">Prev</a></li>
+                <li class="active"><span>1</span></li> -->
+                <!-- <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li> -->
+                <!-- <li><a role="link" aria-disabled="true">Next</a></li> -->
+              </ul>
             </div>
+            <!--End Pagination-->
           </div>
         </div>
-
-        <!-- BG PARALLAX BTNS-->
-        <div class="parallax-bg white-light bg1">
-          <div class="container">
-            <div class="padding30 text-center relative" id="pagbtns">
-              <button
-                onclick="showcert()"
-                id="prev-cert-btn"
-                class="btn btn-flat-line btn-default light-font btn-xs"
-              >
-                <i class="fa fa-angle-left"></i> PREV CERTIFICATE
-              </button>
-              <span class="space-inline-15 hidden-xs"></span>
-              <button
-                onclick="showcert()"
-                id="next-cert-btn"
-                class="btn btn-flat-line btn-default light-font btn-xs"
-              >
-                NEXT CERTIFICATE <i class="fa fa-angle-right"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- END BG PARALLAX BTNS-->
       </section>
-      <!-- END PROJECT DETAILS-->
-
       <!--FOOTER-->
       <footer class="main-footer">
         <div class="container">
@@ -403,12 +314,14 @@
     <script src="assets/plugins/easypiechart/jquery.easypiechart.min.js"></script>
     <!-- simple Captcha -->
     <script src="assets/plugins/simpleCaptcha/jquery.simpleCaptcha.js"></script>
+    <!-- simple Ajax Uploader -->
+    <script src="assets/plugins/Simple-Ajax-Uploader/SimpleAjaxUploader.min.js"></script>
     <!-- validate jquery-->
     <script src="assets/plugins/validator/jquery.validate.min.js"></script>
 
     <!--=====================================================-->
     <!--configuration template-->
-    <script defer src="assets/theme/js/theme.js"></script>
-    <script defer src="./assets/theme/js/certificates/cert-details.js"></script>
+    <script src="assets/theme/js/theme.js"></script>
+    <script defer src="./assets/theme/js/certificates/cert-list.js"></script>
   </body>
 </html>
