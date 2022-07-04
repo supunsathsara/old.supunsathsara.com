@@ -1,7 +1,6 @@
 fetch("/api/certs")
   .then((response) => response.json())
   .then((json) => {
-    console.log(json.slice(0, 8));
     let output = "";
     json.reverse().forEach((element) => {
       output += `
