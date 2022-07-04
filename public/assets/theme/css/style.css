@@ -1427,11 +1427,11 @@ textArea.form-flat {
 .my-profile .my-pict .overfly:hover {
   background: transparent;
 
+}
   .text-botttom {
     bottom: -100%;
   }
 
-}
 
 .my-profile .my-desc,
 .my-profile .my-pict {
@@ -1604,6 +1604,95 @@ textArea.form-flat {
   .list-education .number {
     display: none;
   }
+}
+
+/*== PORTFOLIO == */
+
+/* #cert-title {
+  display: none;
+}
+#cert-list {
+  display: none;
+} */
+.box-work {
+  margin-bottom: 30px;
+  padding: 5px;
+  background: #ffffff;
+  border: 1px solid #ebebeb;
+  position: relative;
+}
+.box-work .work-preview {
+  position: relative;
+}
+.box-work .work-preview img {
+  width: 100%;
+}
+.box-work .work-preview .hover a.project-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+}
+.box-work .work-preview .hover .link-btns {
+  position: absolute;
+  top: 50% ;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  margin-top: -40px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  transition: all 0.8s ease 0s;
+  -webkit-transition: all 0.8s ease 0s;
+  -moz-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  -ms-transition: all 0.8s ease 0s;
+}
+.box-work .work-preview .hover .link-btns a {
+  margin: 5px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  transition: all 0.8s ease 0s;
+  -webkit-transition: all 0.8s ease 0s;
+  -moz-transition: all 0.8s ease 0s;
+  -o-transition: all 0.8s ease 0s;
+  -ms-transition: all 0.8s ease 0s;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  border-radius: 5px !important;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 1px #ffffff !important;
+  -webkit-box-shadow: 0 0 0 1px #ffffff !important;
+  -moz-box-shadow: 0 0 0 1px #ffffff !important;
+  -o-box-shadow: 0 0 0 1px #ffffff !important;
+  -ms-box-shadow: 0 0 0 1px #ffffff !important;
+  line-height: 40px;
+  color: #ffffff;
+}
+.box-work .work-preview .hover .link-btns a:hover {
+  color: #000000;
+  background: #ffffff;
+}
+.box-work .work-preview:hover .hover .link-btns {
+  opacity: 100;
+  filter: alpha(opacity=100);
+}
+.box-work .work-preview:hover .hover a.project-title {
+  background: #ffffff;
 }
 
 /*== SKILL ==*/
