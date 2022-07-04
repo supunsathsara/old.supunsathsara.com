@@ -1,7 +1,6 @@
 fetch("/api/certs/")
   .then((response) => response.json())
   .then((json) => {
-    //console.log(json.count);
     let output = "";
     json
       .reverse()
