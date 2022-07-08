@@ -134,7 +134,7 @@ h6 {
 }
 
 .bg2 {
-  background-image: url(../images/bg2.jpg);
+  background-image: url(../images/bg2.webp);
 }
 
 .container-medium {
@@ -1283,9 +1283,20 @@ textArea.form-flat {
   position: relative;
 }
 
-.main-header .header-content-fixed {
+.no-webp .main-header .header-content-fixed {
   height: 600px;
   background: url(../images/main-header.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+}
+
+.webp .main-header .header-content-fixed {
+  height: 600px;
+  background: url(../images/main-header.webp) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -1377,11 +1388,22 @@ textArea.form-flat {
   position: relative;
 }
 
-.my-profile .my-pict {
+.no-webp .my-profile .my-pict {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: url(../images/my-pict.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.webp .my-profile .my-pict {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/my-pict.webp);
   position: absolute;
   left: 0;
   top: 0;
