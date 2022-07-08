@@ -34,6 +34,8 @@
     <!--pace (page loader) style-->
     <link href="assets/plugins/pace/pace.css" rel="stylesheet">
     <script src="assets/plugins/pace/pace.min.js"></script>
+    <!-- Lazy Load Images -->
+    <script src="./assets/theme/js/lazysizes.min.js"></script>
 
     <!-- Bootstrap -->
     <link href="assets/plugins/bootstrap-3.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -390,37 +392,36 @@
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
                     <div class="box-testimonial">
-                      <img src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile">
-                      
-                      <p><a href="#"><img src="assets/theme/images/people/insta1.webp" alt="Insta pic 1" class="instaimg" style="width:260px;height:260px;"></a></p>
+                      <img data-src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile lazyload">
+                      <p><a href="#"><img data-src="assets/theme/images/people/insta1.webp" alt="Insta pic 1" class="instaimg lazyload" style="width:260px;height:260px;"></a></p>
                       <p class="text-center"><i class="fa fa-instagram"><a href="https://www.instagram.com/s_supun_sathsara">  s_supun_sathsara</a></i></p>
                     </div>
                   </div>
                   <div class="item">
                     <div class="box-testimonial">
-                      <img src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile">
-                      <p><a href="#"><img src="assets/theme/images/people/insta2.webp" alt="Insta pic 2" class="instaimg" style="width:260px;height:260px;"></a></p>
+                      <img data-src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile lazyload">
+                      <p><a href="#"><img data-src="assets/theme/images/people/insta2.webp" alt="Insta pic 2" class="instaimg lazyload" style="width:260px;height:260px;"></a></p>
                       <p class="text-center"><i class="fa fa-instagram"><a href="https://www.instagram.com/s_supun_sathsara">  s_supun_sathsara</a></i></p>
                     </div>
                   </div>
                   <div class="item">
                     <div class="box-testimonial">
-                      <img src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile">
-                      <p><a href="#"><img src="assets/theme/images/people/insta3.webp" alt="Insta pic 3" class="instaimg" style="width:260px;height:260px;"></a></p>
+                      <img data-src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile lazyload">
+                      <p><a href="#"><img data-src="assets/theme/images/people/insta3.webp" alt="Insta pic 3" class="instaimg lazyload" style="width:260px;height:260px;"></a></p>
                        <p class="text-center"><i class="fa fa-instagram"><a href="https://www.instagram.com/s_supun_sathsara">  s_supun_sathsara</a></i></p>
                     </div>
                   </div>
                   <div class="item">
                     <div class="box-testimonial">
-                      <img src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile">
-                      <p><a href="#"><img src="assets/theme/images/people/insta4.webp" alt="Insta pic 4" class="instaimg" style="width:260px;height:260px;"></a></p>
+                      <img data-src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile lazyload">
+                      <p><a href="#"><img data-src="assets/theme/images/people/insta4.webp" alt="Insta pic 4" class="instaimg lazyload" style="width:260px;height:260px;"></a></p>
                         <p class="text-center"><i class="fa fa-instagram"><a href="https://www.instagram.com/s_supun_sathsara">  s_supun_sathsara</a></i></p>
                     </div>
                   </div>
                   <div class="item">
                     <div class="box-testimonial">
-                      <img src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile">
-                      <p><a href="#"><img src="./assets/theme/images/people/insta5.webp" alt="Insta pic 5" class="instaimg" style="width:260px;height:260px;"></a></p>
+                      <img data-src="assets/theme/images/people/1.webp" alt="Profile pic" class="img-profile lazyload">
+                      <p><a href="#"><img data-src="./assets/theme/images/people/insta5.webp" alt="Insta pic 5" class="instaimg lazyload" style="width:260px;height:260px;"></a></p>
                         <p class="text-center"><i class="fa fa-instagram"><a href="https://www.instagram.com/s_supun_sathsara">  s_supun_sathsara</a></i></p>
                     </div>
                   </div>
@@ -539,12 +540,12 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="assets/plugins/jquery.js"></script>
+    <script defer src="assets/plugins/jquery.js"></script>
     <script defer src="assets/plugins/bootstrap-3.3.1/js/bootstrap.min.js"></script>
     <!-- manifest js -->
     <script defer src="index.js"></script>
 
-    <script defer
+    <script defer rel="preconnect"
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"

@@ -30,7 +30,7 @@ fetch("/api/certs/")
   <div class="col-md-4 col-sm-6">
   <div class="box-work">
     <div class="work-preview">
-      <img src="./assets/theme/images/certificates/src/thumbnails/${element.thumbnail}.jpg" srcset="./assets/theme/images/certificates/thumbnails/${element.thumbnail}.webp" alt="${element.title}">
+      <img data-src="./assets/theme/images/certificates/src/thumbnails/${element.thumbnail}.jpg" data-srcset="./assets/theme/images/certificates/thumbnails/${element.thumbnail}.webp" alt="${element.title}" class="lazyload">
       <div class="hover">
           <div class="link-btns">
             <a href="./assets/theme/images/certificates/${element.image}.webp" title="${element.title}" class="galery-item" ><i class="fa fa-search-plus"></i></a>
