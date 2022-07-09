@@ -1407,7 +1407,6 @@ textArea.form-flat {
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
 }
 
 @media (max-width: 880px) {
