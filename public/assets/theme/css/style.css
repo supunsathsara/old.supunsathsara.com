@@ -1283,18 +1283,8 @@ textArea.form-flat {
   position: relative;
 }
 
-.no-webp .main-header .header-content-fixed {
-  height: 600px;
-  background: url(../images/main-header.jpg) no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  position: fixed;
-  z-index: 0;
-  width: 100%;
-}
 
-.webp .main-header .header-content-fixed {
+.main-header .header-content-fixed {
   height: 600px;
   background: url(../images/main-header.webp) no-repeat center;
   background-size: cover;
@@ -1304,6 +1294,11 @@ textArea.form-flat {
   z-index: 0;
   width: 100%;
 }
+
+.no-webp .main-header .header-content-fixed{
+  background: url(../images/main-header.jpg) no-repeat center !important;
+}
+
 
 .main-header .header-content-fixed:before {
   content: "";
@@ -1388,26 +1383,24 @@ textArea.form-flat {
   position: relative;
 }
 
-.no-webp .my-profile .my-pict {
+.my-profile .my-pict {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(../images/my-pict.jpg);
   position: absolute;
   left: 0;
   top: 0;
   height: 100%;
 }
 
-.webp .my-profile .my-pict {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../images/my-pict.webp);
-  position: absolute;
-  left: 0;
-  top: 0;
+.no-webp .my-profile .my-pict {
+  background-image: url(../images/my-pict.jpg);
 }
+
+.webp .my-profile .my-pict{
+  background-image: url(../images/my-pict.webp) !important;
+}
+
 
 @media (max-width: 880px) {
   .my-profile .my-pict {
@@ -1431,7 +1424,7 @@ textArea.form-flat {
   height: 100%;
 }
 
-.my-profile .my-pict .overfly .text-botttom {
+.my-profile .my-pict .overfly .text-bottom {
   position: absolute;
   width: 100%;
   transition: all 0.8s ease 0s;
@@ -1449,7 +1442,7 @@ textArea.form-flat {
   background: transparent;
 
 }
-  .text-botttom {
+  .text-bottom {
     bottom: -100%;
   }
 
