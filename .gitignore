@@ -1,3 +1,4 @@
 .vscode
+.prettierignore
 node_modules
 /functions/api/tests
