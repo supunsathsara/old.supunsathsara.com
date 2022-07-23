@@ -21,6 +21,10 @@
   <priority>0.80</priority>
   <changefreq>monthly</changefreq>
 </url>
-
+<url>
+  <loc>https://supunsathsara.com/cert-detail</loc>
+  <lastmod>2022-07-23T22:12:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
