@@ -1395,11 +1395,11 @@ textArea.form-flat {
 
 
 .no-webp .my-profile .my-pict {
-  background-image: url(../images/my-pict.jpg);
+  background-image: url(../images/hero-img.jpeg);
 }
 
 .webp .my-profile .my-pict{
-  background-image: url(../images/my-pict.webp) !important;
+  background-image: url(../images/hero-img.webp) !important;
 }
 
 
