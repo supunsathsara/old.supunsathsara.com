@@ -10,3 +10,9 @@ if ('serviceWorker' in navigator) {
       console.log(error);
     });
 }
+
+//About section
+var birthday = '2002/08/26';
+var ageDate = new Date(Date.now() - new Date(birthday).getTime());
+var age = Math.abs(ageDate.getUTCFullYear() - 1970);
+document.getElementById('about-age').innerHTML = age + ' years old';
