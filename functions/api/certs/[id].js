@@ -1,5 +1,5 @@
 export async function onRequestGet({ params }) {
-  const res = await fetch(`https://fx5j7c.deta.dev/certs/${params.id}`);
+  const res = await fetch(`https://certapi-1-s9691506.deta.app/${params.id}`);
   const data = await res.json();
   //data.image = `https://supunsathsara.com/assets/theme/images/Certs/${data.image}`;
   //data.thumbnail = `https://supunsathsara.com/assets/theme/images/Certs/${data.thumbnail}`;
